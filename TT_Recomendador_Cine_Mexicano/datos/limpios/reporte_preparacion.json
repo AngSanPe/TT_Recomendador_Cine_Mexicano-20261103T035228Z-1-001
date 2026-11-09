@@ -1,0 +1,66 @@
+{
+  "semilla": 42,
+  "catalogo": {
+    "peliculas": 878,
+    "con_genero_imdb": 832,
+    "con_sinopsis_informativa": 878,
+    "paises_incluye_mexico": 855
+  },
+  "g34": {
+    "usuarios": 19790,
+    "peliculas": 72240,
+    "interacciones": 1659339,
+    "interacciones_mx": 95799,
+    "interacciones_mx_con_resena": 66339,
+    "con_calificacion": 1508304,
+    "particion": {
+      "train": 1621906,
+      "test": 19098,
+      "val": 18335
+    },
+    "usuarios_con_test": 19098,
+    "test_relevantes_>=3.5": 11276
+  },
+  "g5": {
+    "usuarios": 19784,
+    "peliculas": 67786,
+    "interacciones": 1844900,
+    "interacciones_mx": 239442,
+    "interacciones_mx_con_resena": 198139,
+    "con_calificacion": 1705859,
+    "particion": {
+      "train": 1770555,
+      "test": 37225,
+      "val": 37120
+    },
+    "usuarios_con_test": 19426,
+    "test_relevantes_>=3.5": 20859
+  },
+  "items_contenido": {
+    "peliculas": 98798,
+    "enlazadas_imdb": 54248,
+    "con_sinopsis_informativa": 51466,
+    "idioma_sinopsis": {
+      "en": 50963,
+      "es": 305,
+      "otra": 198
+    }
+  },
+  "resenas_sentimiento": {
+    "resenas_es_usuarios_experimento": 151518,
+    "descartadas_sin_texto_util": 2,
+    "finales": 151516,
+    "por_grupo": {
+      "g5": 119872,
+      "g34": 31644
+    },
+    "con_calificacion": 145841,
+    "con_emoji_traducido": 14745,
+    "largo_mediana_caracteres": 115.0,
+    "largo_p95_caracteres": 485.0
+  },
+  "resenas_afinado_beto": {
+    "resenas": 152187,
+    "usuarios": 95934
+  }
+}

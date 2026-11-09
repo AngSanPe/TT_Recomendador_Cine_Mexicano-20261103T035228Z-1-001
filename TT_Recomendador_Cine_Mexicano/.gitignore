@@ -1,0 +1,13 @@
+# Credenciales: nunca al repositorio
+.env
+*.key
+accesos.txt
+
+# Datos pesados (se regeneran con los scrapers y el notebook 00)
+datos/crudos/
+datos/limpios/sentimiento/parcial_*
+datos/limpios/sentimiento/jev_cache.jsonl
+modelos/
+
+__pycache__/
+.ipynb_checkpoints/

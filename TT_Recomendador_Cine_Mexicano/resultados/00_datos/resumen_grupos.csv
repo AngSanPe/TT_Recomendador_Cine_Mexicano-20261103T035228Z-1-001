@@ -1,0 +1,12 @@
+,Usuarios con 3 a 4 películas mexicanas reseñadas,Usuarios con 5 o más películas mexicanas reseñadas
+usuarios,19790.0,19784.0
+películas,72240.0,67786.0
+interacciones,1659339.0,1844900.0
+densidad (%),0.11606775629155971,0.13756841077452317
+interacciones con cine MX,95799.0,239442.0
+películas MX por usuario (mediana),4.0,9.0
+películas del catálogo vistas,828.0,861.0
+% con estrellas,90.89788162635844,92.46349395631199
+test,19098.0,37225.0
+test relevantes (≥3.5★),11276.0,20859.0
+val,18335.0,37120.0

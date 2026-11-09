@@ -1,0 +1,30 @@
+{
+  "ranking": {
+    "Popularidad": {},
+    "ItemKNN": {
+      "k": 6400
+    },
+    "PureSVD": {
+      "factores": 512
+    },
+    "EASE": {
+      "lam": 100,
+      "min_interacciones": 20
+    }
+  },
+  "rating": {
+    "MediaGlobal": {},
+    "Sesgos": {
+      "reg_item": 2,
+      "reg_usuario": 5
+    },
+    "ItemKNNSesgos": {
+      "k": 40,
+      "shrink": 20,
+      "reg": 0.5,
+      "reg_item": 2,
+      "reg_usuario": 5
+    }
+  },
+  "lambda": {}
+}

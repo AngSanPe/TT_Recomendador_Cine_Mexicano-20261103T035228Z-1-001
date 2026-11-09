@@ -1,0 +1,70 @@
+{
+  "g34": {
+    "ranking": {
+      "Popularidad": {},
+      "Contenido-TFIDF (solo texto)": {
+        "generos": 0,
+        "decada": 0,
+        "directores": 0,
+        "centrado": "neutral",
+        "peso_mx": 50
+      },
+      "Contenido-TFIDF": {
+        "generos": 0.6,
+        "decada": 0.5,
+        "directores": 1.0,
+        "centrado": "neutral",
+        "peso_mx": 200
+      },
+      "Contenido-Embeddings (solo texto)": {
+        "generos": 0,
+        "decada": 0,
+        "directores": 0,
+        "centrado": "neutral",
+        "peso_mx": 200
+      },
+      "Contenido-Embeddings": {
+        "generos": 0.6,
+        "decada": 0.5,
+        "directores": 2.0,
+        "centrado": "neutral",
+        "peso_mx": 1000
+      }
+    },
+    "lambda": {}
+  },
+  "g5": {
+    "ranking": {
+      "Popularidad": {},
+      "Contenido-TFIDF (solo texto)": {
+        "generos": 0,
+        "decada": 0,
+        "directores": 0,
+        "centrado": "neutral",
+        "peso_mx": 50
+      },
+      "Contenido-TFIDF": {
+        "generos": 0.3,
+        "decada": 0.25,
+        "directores": 1.0,
+        "centrado": "neutral",
+        "peso_mx": 200
+      },
+      "Contenido-Embeddings (solo texto)": {
+        "generos": 0,
+        "decada": 0,
+        "directores": 0,
+        "centrado": "neutral",
+        "peso_mx": 1000
+      },
+      "Contenido-Embeddings": {
+        "generos": 0.6,
+        "decada": 0.5,
+        "directores": 2.0,
+        "centrado": "neutral",
+        "peso_mx": 200
+      }
+    },
+    "lambda": {}
+  }
+}

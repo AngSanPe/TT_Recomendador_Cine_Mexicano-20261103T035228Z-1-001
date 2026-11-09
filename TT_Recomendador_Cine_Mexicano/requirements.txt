@@ -1,0 +1,19 @@
+# Experimentos 00–03 y 06 (corren en CPU)
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4
+pyarrow>=14
+matplotlib>=3.8
+tqdm>=4.66
+jupyter
+
+# Embeddings de sinopsis (notebook 03; opcional si ya existe datos/limpios/embeddings/*.npz)
+sentence-transformers>=3.0
+
+# Experimento 4 · BETO (GPU recomendada)
+torch>=2.2
+transformers>=4.40
+
+# Experimento 5 · JEV (LLM vía API)
+requests>=2.31

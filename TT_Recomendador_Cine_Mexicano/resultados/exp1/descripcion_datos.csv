@@ -1,0 +1,13 @@
+,valor
+usuarios,19790.0
+películas (todas),72240.0
+películas del catálogo mexicano vistas,828.0
+interacciones,1659339.0
+densidad de la matriz (%),0.11606775629155971
+interacciones con cine mexicano,95799.0
+  …de ellas con reseña escrita,66339.0
+pares en train,1621906.0
+pares en val,18335.0
+pares en test,19098.0
+test relevantes (≥ 3.5 ★),11276.0
+usuarios evaluables en test (≥1 relevante),11276.0

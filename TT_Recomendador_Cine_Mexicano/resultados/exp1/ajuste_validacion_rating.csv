@@ -1,0 +1,9 @@
+modelo,params,RMSE,MAE,n
+MediaGlobal,{},1.134280122024803,0.8918120051457572,18335
+Sesgos,"{'reg_item': 2, 'reg_usuario': 5}",0.8737999660445053,0.6741732753535962,18335
+Sesgos,"{'reg_item': 5, 'reg_usuario': 10}",0.8774603948226658,0.6777984650634974,18335
+Sesgos,"{'reg_item': 10, 'reg_usuario': 15}",0.8852256509857929,0.6844517719867218,18335
+ItemKNNSesgos,"{'k': 40, 'shrink': 20, 'reg': 0.5, 'reg_item': 2, 'reg_usuario': 5}",0.8706679220596593,0.6714771511479846,18335
+ItemKNNSesgos,"{'k': 40, 'shrink': 20, 'reg': 1.0, 'reg_item': 2, 'reg_usuario': 5}",0.8716840119591657,0.6723858252105734,18335
+ItemKNNSesgos,"{'k': 40, 'shrink': 100, 'reg': 0.5, 'reg_item': 2, 'reg_usuario': 5}",0.8717671993732344,0.6724269409288505,18335
+ItemKNNSesgos,"{'k': 40, 'shrink': 100, 'reg': 1.0, 'reg_item': 2, 'reg_usuario': 5}",0.8725283185441309,0.6731083780291952,18335
